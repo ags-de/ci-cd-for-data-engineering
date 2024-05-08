@@ -15,3 +15,15 @@ variable "landing_bucket_name" {
     type        = string
     default     = "ags-proj-landing-zone-bucket"
 }
+
+variable "bigquery_dataset_name" {
+    description = "Name of the BigQuery dataset"
+    type        = string
+    default     = "ags_proj_dataset"
+}
+
+variable "bigquery_table_name" {
+    description = "Name of the BigQuery table"
+    type        = string
+    default     = "test_table"
+}
